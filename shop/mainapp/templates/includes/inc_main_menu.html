@@ -1,0 +1,63 @@
+<ul class="menu">
+    {% for link in main_menu %}
+    <li>
+        <a href="{% url link.href %}" class="{% if request.resolver_match.view_name == link.href %} active {% endif %}">
+            {{ link.name }}
+        </a>
+    </li>
+    {% endfor %}
+
+    {% if user.is_authenticated %}
+    <li>
+         <div class="dropdown">
+           <a class="dropdown-toggle" href="" data-toggle="dropdown">
+               {{ user.first_name|default:'Пользователь' }}
+               <span class="caret"></span>
+           </a>
+           <ul class="dropdown-menu">
+               <li>
+                   <a href="{% url 'auth:edit' %}">
+                       Профиль
+                   </a>
+               </li>
+                <li>
+                   <a href="{% url 'ordersapp:order_list' %}">
+                       Заказы
+                   </a>
+               </li>
+           </ul>
+       </div>
+    </li>
+    {% endif %}
+
+    {% if user.is_superuser %}
+    <li>
+        <a href="{% url 'admin:users' %}">Админка</a>
+    </li>
+    {% endif %}
+
+
+    {% if user.is_authenticated %}
+    <li>
+        <a href="{% url 'auth:logout' %}">Выйти</a>
+    </li>
+    {% else %}
+    <li>
+        <a href="{% url 'auth:login' %}">Войти</a>
+    </li>
+    {% endif%}
+
+</ul>
+
+<a href="{% url 'basket:view' %}" >
+    <span class="basket-pr">
+        {% if basket %}
+            ({{ basket.0.total_quantity }} шт.)
+        {% endif %}
+    </span>
+</a>
+
+
+
+
+

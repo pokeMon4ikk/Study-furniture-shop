@@ -1,0 +1,55 @@
+[
+	{
+		"category" : "Мебель",
+		"name" : "Настенная лампа",
+		"image": "product-41.jpg",
+		"short_description" : "",
+		"price": "3590",
+		"quantity": "6"
+	},
+
+	{
+		"category" : "Мебель",
+		"name" : "Кресло",
+		"image": "product-7.jpg",
+		"short_description" : "",
+		"price": "5440",
+		"quantity": "5"
+	},
+
+	{
+		"category" : "Мебель",
+		"name" : "Диван",
+		"image": "product-3-sm.jpg",
+		"short_description" : "",
+		"price": "19340",
+		"quantity": "4"
+	},
+
+	{
+		"category" : "Мебель",
+		"name" : "Навесная лампа ",
+		"image": "product-11.jpg",
+		"short_description" : "",
+		"price": "2140",
+		"quantity": "3"
+	},
+
+	{
+		"category" : "Мебель",
+		"name" : "Стул",
+		"image": "product-21.jpg",
+		"short_description" : "",
+		"price": "5140",
+		"quantity": "2"
+	},
+
+	{
+		"category" : "Мебель",
+		"name" : "Стол",
+		"image": "product-9.jpg",
+		"short_description" : "",
+		"price": "7190",
+		"quantity": "1"
+	}
+]

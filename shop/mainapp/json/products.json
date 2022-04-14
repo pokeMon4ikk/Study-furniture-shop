@@ -1,0 +1,61 @@
+[
+	{
+		"category" : "Интерьер",
+		"name" : "Настенная лампа",
+		"image": "product-41.jpg",
+		"short_description" : "Мебель высшего качества",
+		"full_description" : "",
+		"price": "3590",
+		"quantity": "6"
+	},
+
+	{
+		"category" : "Стулья",
+		"name" : "Кресло",
+		"image": "product-7.jpg",
+		"short_description" : "Мебель высшего качества",
+		"full_description" : "",
+		"price": "5440",
+		"quantity": "5"
+	},
+
+	{
+		"category" : "Кровати",
+		"name" : "Диван",
+		"image": "product-3-sm.jpg",
+		"short_description" : "Мебель высшего качества",
+		"full_description" : "",
+		"price": "19340",
+		"quantity": "4"
+	},
+
+	{
+		"category" : "Кровати",
+		"name" : "Кровать",
+		"image": "product-677.jpg",
+		"short_description" : "Мебель высшего качества",
+		"full_description" : "",
+		"price": "72140",
+		"quantity": "6"
+	},
+
+	{
+		"category" : "Кровати",
+		"name" : "Кровать",
+		"image": "product-678.jpg",
+		"short_description" : "Мебель высшего качества",
+		"full_description" : "",
+		"price": "54140",
+		"quantity": "6"
+	},
+
+	{
+		"category" : "Стулья",
+		"name" : "Стул",
+		"image": "product-679.jpg",
+		"short_description" : "Мебель высшего качества",
+		"full_description" : "",
+		"price": "9190",
+		"quantity": "6"
+	}
+]

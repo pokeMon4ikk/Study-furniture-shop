@@ -1,0 +1,73 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block title %}
+	{{ title | title }}
+{% endblock %}
+		{% block menu %}
+		<div class="hero">
+			<div class="header clearfix">
+				<a href="{% url 'main' %}" class="logo"></a>
+					{% include 'includes/inc_main_menu.html' %}
+				<a href="#" class="search"></a>
+                <a href="{% url 'basket:view' %}" class="basket"></a>
+			</div>
+			<h1>наши контакты</h1>
+		</div>
+		{% endblock %}
+
+		{% block content %}
+		<div class="location">
+			<div class="location-1">
+				<i class="fa fa-map-marker fa-5x"></i>
+				<h4>Москва</h4>
+				<div class="contacts">
+					<h5>Телефон</h5>
+					<p>8-800-555-35-35</p>
+				</div>
+				<div class="contacts">
+					<h5>Email</h5>
+					<p>pavelzabrovskiy@bk.ru</p>
+				</div>
+				<div class="contacts">
+					<h5>Адрес</h5>
+					<p>В пределах МКАД</p>
+				</div>
+			</div>
+			<div class="location-1">
+				<i class="fa fa-map-marker fa-5x"></i>
+				<h4>Москва</h4>
+				<div class="contacts">
+					<h5>Телефон</h5>
+					<p>8-800-555-35-35</p>
+				</div>
+				<div class="contacts">
+					<h5>Email</h5>
+					<p>pavelzabrovskiy@bk.ru</p>
+				</div>
+				<div class="contacts">
+					<h5>Адрес</h5>
+					<p>В пределах МКАД</p>
+				</div>
+			</div>
+			<div class="location-1">
+				<i class="fa fa-map-marker fa-5x"></i>
+				<h4>Москва</h4>
+				<div class="contacts">
+					<h5>Телефон</h5>
+					<p>8-800-555-35-35</p>
+				</div>
+				<div class="contacts">
+					<h5>Email</h5>
+					<p>pavelzabrovskiy@bk.ru</p>
+				</div>
+				<div class="contacts">
+					<h5>Адрес</h5>
+					<p>В пределах МКАД</p>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+			<script type="text/javascript" charset="utf-8" async
+					src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afac69da3904d62d7aa77bfb077ec91fc35e1eaf6238cc78217c79eac0ed64912&amp;width=1196&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+		</div>
+		{% endblock %}
